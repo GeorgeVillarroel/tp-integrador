@@ -1,0 +1,211 @@
+@font-face {
+    font-family: PoetsenOne;
+    src: url(../../assets/fonts/Poetsen_One/PoetsenOne-Regular.ttf)
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(../../assets/fonts/Rubik/Rubik-VariableFont_wght.ttf)
+}
+
+
+* {
+    outline: rgba(0, 0, 0, 0) 2px solid;
+    background-color: rgb(202, 202, 202);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo-store {
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav-list {
+    background-color: rgb(255, 255, 255, 1);
+    display: flex;
+    gap: 25px;
+    padding: 0;
+}
+
+.nav-list .nav-item {
+    list-style: none;
+    text-decoration: none;
+    background-color: white;
+}
+
+svg {
+    background-color: white;
+}
+
+.nav-link{
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgb(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: Rubik;
+}
+.searchbar form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.submit {
+    padding: 7px 7px 5px 7px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+}
+
+.search-box {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    width: 30vw;
+    height: 3.5vh;
+    padding: 0px 15px;
+    border: 0;
+    border-radius: 15px;
+}
+
+.location a {
+    text-decoration: 0;
+    color: black;
+    font-weight: 200;
+    font-family: Rubik;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 10vw;
+    padding: 25px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 50px;
+}
+
+.filter-list {
+    background-color: rgba(255, 255, 255, 1);
+    list-style: none;
+    padding: 10px 40px 10px 10px;
+    border-radius: 15px;
+}
+
+.filter-items.category {
+    font-weight: 800;
+    border-top: solid 1px rgba(0, 0, 0, 1);
+    border-bottom: solid 1px rgba(0, 0, 0, 1);
+}
+.filter-items.category:first-child {
+    font-weight: 800;
+    border-top: none;
+    border-bottom: solid 1px rgba(0, 0, 0, 1);
+}
+
+.filter-items {
+    font-family: Rubik;
+    font-weight: 500;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+article .grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.product {
+    background-color: rgb(0, 0, 0);
+    /* outline: rgb(255, 0, 0) 5px solid; */
+    width: 200px;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ninth, .first, .second, .third, .fourth, .fifth, .sixth, .seventh, .eigth {
+    background-image: url("../../assets/imgs/perro.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+}
+
+.product-text {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.9); 
+}
+
+.product-text p {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0); 
+    color: black;
+    font-weight: 600;
+    font-family: Rubik;
+    padding: 5px;
+}
+
+.product-add {
+    border: none;
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+}
+
+.product-image {
+    object-fit: cover;
+    left: 100px;
+    width: 100%;
+    height: 100%;
+    /* height: 190px; */
+}
+
+.more {
+    padding: 10px 15vw;
+    margin: 20px;
+    border-radius: 15px;
+    font-family: Rubik;
+    background-color: white;
+    box-shadow: 3px 3px;
+}
+
+.more:active {
+    box-shadow: 2px 2px ;
+    box-shadow: inset 2px 2px ;
+}
