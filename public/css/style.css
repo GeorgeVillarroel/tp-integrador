@@ -1,0 +1,235 @@
+@font-face {
+    font-family: PoetsenOne;
+    src: url(/assets/fonts/Poetsen_One/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(/assets/fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+* {
+    outline: rgba(0, 0, 0, 0) 2px solid;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo-store {
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.nav-list {
+    background-color: rgb(255, 255, 255, 1);
+    display: flex;
+    gap: 25px;
+    padding: 0;
+}
+
+.nav-list .nav-item {
+    list-style: none;
+    text-decoration: none;
+    background-color: white;
+}
+
+svg {
+    background-color: white;
+}
+
+.nav-link{
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.navbar a {
+    max-height: 6vh;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgb(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1.2em;
+    font-family: Rubik;
+}
+
+.content {
+    background-image: url("/../../assets/imgs/background.png");
+    background-size: cover;
+    width: auto;
+    height: 90.4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.8px);
+    -webkit-backdrop-filter: blur(14.8px);
+    width: 30vw;
+    height: 40vh;
+    color: black;
+    padding: 4em;
+}
+
+h1.hero-title {
+    font-size: 4em;
+    font-family: Rubik;
+}
+
+p.hero-description {
+    font-size: 1.2em;
+    font-weight: 450;
+    font-family: Rubik;
+}
+
+.hero-buttons {
+    display: flex;
+    width: 50%;
+}
+
+.hero-cta {
+    appearance: button;
+    background-color: #000000;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Rubik, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.hero-cta:after {
+  background-clip: padding-box;
+  background-color: #000000;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.hero-cta:main,
+.hero-cta:focus {
+  user-select: auto;
+}
+
+.hero-cta:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.hero-cta:disabled {
+  cursor: auto;
+}
+
+.hero-cta:active {
+  border-width: 4px 0 0;
+  background: none;
+}
+
+.hero-contacto {
+    appearance: button;
+    background-color: #000000;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Rubik, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    margin: 0;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.hero-contacto:after {
+  background-clip: padding-box;
+  background-color: #ffffff;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.hero-contacto:main,
+.hero-contacto:focus {
+  user-select: auto;
+}
+
+.hero-contacto:hover:not(:disabled) {
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.hero-contacto:disabled {
+  cursor: auto;
+}
+
+.hero-contacto:active {
+  border-width: 4px 0 0;
+  background: none;
+}

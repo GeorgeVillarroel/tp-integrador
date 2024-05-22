@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../public/css/styleStock.css">
+    <link rel="shortcut icon" href="../../../assets/imgs/iconoperro.ico" type="image/x-icon">
     <title>Productos</title>
 </head>
 <body>
     <nav class="navbar">
-        <a href="#" class="logo">
+        <a href="../../../index.html" class="logo">
             <img src="../../../assets/imgs/iconoperro.ico" alt="" class="logo-store">
         </a>
         <ul class="nav-list">
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="../../../index.html" class="nav-link">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
                         <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5"/>
                       </svg>
@@ -29,7 +30,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="chekout.html" class="nav-link">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
                         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
                       </svg>                    
@@ -48,7 +49,7 @@
     </nav>
     <header class="header">
         <div class="location">
-            <h3> <a href="#">Home</a> > <a href="#">Productos</a> </h3>
+            <h3 class="small-links"> <a href="#">Home</a> > <a href="#">Productos</a> </h3>
         </div>
         <div class="searchbar">
             <form action="submit">
@@ -66,30 +67,23 @@
         <aside>
             <ul class="filter-list">
                 <li class="filter-items category">Despensa</li>
-                <li class="filter-items">Carniceria</li>
-                <li class="filter-items">Verduleria</li>
-                <li class="filter-items">Congelados</li>
+                <li class="filter-items filter-link">Carniceria</li>
+                <li class="filter-items filter-link">Verduleria</li>
+                <li class="filter-items filter-link">Congelados</li>
                 <li class="filter-items category">Amoblamientos</li>
-                <li class="filter-items">Cocina</li>
-                <li class="filter-items">Sala</li>
-                <li class="filter-items">Habitacion</li>
-                <li class="filter-items">Baños</li>
+                <li class="filter-items filter-link">Cocina</li>
+                <li class="filter-items filter-link">Sala</li>
+                <li class="filter-items filter-link">Habitacion</li>
+                <li class="filter-items filter-link">Baños</li>
                 <li class="filter-items category">Electronicos</li>
-                <li class="filter-items">Computadoras</li>
-                <li class="filter-items">Portatiles</li>
-                <li class="filter-items">Celulares</li>
-                <li class="filter-items">Accesorios</li>
+                <li class="filter-items filter-link">Computadoras</li>
+                <li class="filter-items filter-link">Portatiles</li>
+                <li class="filter-items filter-link">Celulares</li>
+                <li class="filter-items filter-link">Accesorios</li>
             </ul>
         </aside>
         <article>
             <div class="grid">
-                <div class="product ninth">
-                    <!-- <img src="../../../assets/imgs/perro.jpg" alt="#" class="product-image"> -->
-                    <div class="product-text ">
-                        <p class="product-name">Producto</p>
-                        <button class="product-add">+</button>
-                    </div>
-                </div>
                 <div class="product first">
                     <div class="product-text ">
                         <p class="product-name">Producto</p>
@@ -139,10 +133,17 @@
                         <button class="product-add">+</button>
                     </div>
                 </div>
+                <div class="product ninth">
+                    <div class="product-text ">
+                        <p class="product-name">Producto</p>
+                        <button class="product-add">+</button>
+                    </div>
+                </div>
             </div>
             <button class="more">Mas productos</button>
         </article>
     </main>
     <footer></footer>
+    <script src="../../../public/js/scriptStock.js"></script>
 </body>
 </html>
