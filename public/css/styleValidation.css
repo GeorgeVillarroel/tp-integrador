@@ -8,10 +8,10 @@ body {
 }
 
 main {
-	/* max-width: 800px; */
 	width: 90%;
 	margin: auto;
 	padding: 20px;
+	margin-bottom: 50px;
 }
 
 .formulario {

@@ -29,7 +29,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
+    box-shadow: 1px 1px 10px 2px;
+  
 }
 
 .nav-list {
@@ -68,7 +70,7 @@ svg {
     background-image: url("/../../assets/imgs/background.png");
     background-size: cover;
     width: auto;
-    height: 90.4vh;
+    height: 79.4vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,9 +87,9 @@ svg {
     backdrop-filter: blur(14.8px);
     -webkit-backdrop-filter: blur(14.8px);
     width: 30vw;
-    height: 40vh;
+    height: 30vh;
     color: black;
-    padding: 4em;
+    padding: 2em;
 }
 
 h1.hero-title {

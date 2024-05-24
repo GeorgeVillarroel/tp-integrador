@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodoCompras</title>
     <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="public/css/footer.css">
     <link rel="shortcut icon" href="assets/imgs/iconoperro.ico" type="image/x-icon">
 </head>
-<body>
+<body class="main_index">
     <nav class="navbar">
         <a href="#" class="logo">
             <img src="../../../assets/imgs/iconoperro.ico" alt="" class="logo-store">
@@ -47,20 +48,50 @@
             </li>
         </ul>
     </nav>
-    <div class="content">
-        <div class="hero">
-            <h1 class="hero-title">
-                CodoCompras
-            </h1>
-            <p class="hero-description">
-                ¡Bienvenidos a CodoCompras! Encuentra todo lo que necesitas en un solo lugar. Compras fáciles, rápidas y seguras, con ofertas irresistibles. ¡Haz clic y recibe en casa!
-            </p>
-            <div class="hero-buttons">
-                <button class="hero-cta">Nuestros Productos</button>
-                <button class="hero-contacto">Acerca de nosotros</button>
+    <main>
+        
+        <article>
+
+            <div class="content">
+                <div class="hero">
+                    <h1 class="hero-title">
+                        CodoCompras
+                    </h1>
+                    <p class="hero-description">
+                        ¡Bienvenidos a CodoCompras! Encuentra todo lo que necesitas en un solo lugar. Compras fáciles, rápidas y seguras, con ofertas irresistibles. ¡Haz clic y recibe en casa!
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="hero-cta">Nuestros Productos</button>
+                        <button class="hero-contacto">Acerca de nosotros</button>
+                    </div>
+                </div>
             </div>
-        </div>
+        </article>
+
+    </main>
+<footer>
+    <div class="olas">
+        <div class="ola" id="ola1"></div>
+        <div class="ola" id="ola2"></div>
+        <div class="ola" id="ola3"></div>
+        <div class="ola" id="ola4"></div>
     </div>
+    <ul class="icons">
+        <li><a href=""><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href=""><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href=""><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+        <li><a href=""><ion-icon name="logo-instagram"></ion-icon></a></li>
+    </ul>
+    <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="/src/views/pages/stock.html">Productos</a></li>
+        <li><a href="/src/views/pages/chekout.html">Carrito</a></li>
+        <li><a href="/src/views/pages/about.html">Contacto</a></li>
+    </ul>
+    <p>© 2024 Curso Codo a Codo Python | Todos los derechos reservados</p>
+</footer>
     <script src="/public/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
