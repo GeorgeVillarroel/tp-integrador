@@ -17,7 +17,7 @@
  
 }
 .main_index{
-  background-image: url("/../../assets/imgs/background.png");
+  background-image: url("../../assets/imgs/background.png");
   background-size: cover;
   display:flex;
   flex-direction: column;

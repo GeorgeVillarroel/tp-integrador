@@ -67,7 +67,7 @@ svg {
 }
 
 .content {
-    background-image: url("/../../assets/imgs/background.png");
+    background-image: url("../../assets/imgs/background.png");
     background-size: cover;
     width: auto;
     height: 79.4vh;
